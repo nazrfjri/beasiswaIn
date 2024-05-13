@@ -1,2 +1,2 @@
-# myporto
-ini adalah website portfolio yang saya buat menggunakan TailwindCSS
+# BeasiswaIn
+ini adalah website pencarian beasiswa yang kami buat menggunakan TailwindCSS
