@@ -6,19 +6,25 @@ module.exports = {
     theme: {
       container : {
         center: true,
-        padding: '16px',
+        margin: '0px',
+        padding: '2px',
       },
       extend: {
         backgroundImage : {
           'parallax' : 'url("https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")'
         },
         colors : {
-          primary: '#9333ea',
+          primary: '#FFFFFF',
           dark: '#0f172a',
-          secondary: '#64748b'
+          secondary: '#F6EEF9',
+          head: '#161439',
+          p: '#6D6C80'
         },
         screens: {
           '2xl': '1320px',
+        },
+        dropShadow: {
+          'baten': '0 35px 35px #050071'
         }
       },
     },
