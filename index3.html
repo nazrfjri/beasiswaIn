@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-beasiswa.svg">
+    <title>Akun</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <img src="img/logo-beasiswa2.svg" alt="BeasiswaIn" width="100" height="auto">
+                <div>
+                    <a href="index.html" class="text-gray-700 mx-4">Beranda</a>
+                    <a href="index4.html" class="text-gray-700 mx-4">Pemberitahuan</a>
+                    <a href="index5.html" class="text-gray-700 mx-4">Kuesioner</a>
+                </div>
+                <a href="#" class="bg-yellow-500 text-white px-4 py-2 rounded">Akun</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8">
+        <h1 class="text-3xl font-semibold text-center text-gray-700 mb-8">Akun</h1>
+
+        <div class="flex justify-center">
+            <div class="bg-white p-8 rounded shadow w-full lg:w-2/3">
+                <div class="border-b border-gray-200 mb-6">
+                    <ul class="flex">
+                        <li class="mr-6">
+                            <a class="text-blue-500 hover:text-blue-800 font-semibold" href="#">Profil Saya</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="text-gray-600 hover:text-gray-800" href="#">Keluar</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex items-center mb-6">
+                    <div class="w-24 h-24 rounded-full overflow-hidden bg-gray-100">
+                        <img src="profile-pic.jpg" alt="Profile Picture" class="w-full h-full object-cover">
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-2xl font-semibold text-gray-700">Akun</h2>
+                    </div>
+                </div>
+                <form>
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                        <div>
+                            <label for="name" class="block text-gray-600">Nama</label>
+                            <input type="text" id="name" class="mt-1 block w-full p-2 border rounded" value="John Doe">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-600">Email</label>
+                            <input type="email" id="email" class="mt-1 block w-full p-2 border rounded" value="johndoe@gmail.com">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-600">Nomor Telepon</label>
+                            <input type="text" id="phone" class="mt-1 block w-full p-2 border rounded" value="+62 8123456789">
+                        </div>
+                        <div>
+                            <label for="country" class="block text-gray-600">Negara</label>
+                            <input type="text" id="country" class="mt-1 block w-full p-2 border rounded" placeholder="Masukkan negara tempat tinggal">
+                        </div>
+                        <div>
+                            <label for="city" class="block text-gray-600">Kota</label>
+                            <input type="text" id="city" class="mt-1 block w-full p-2 border rounded" placeholder="Masukkan kota tempat tinggal">
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <button type="submit" class="bg-yellow-500 text-white px-6 py-2 rounded">Simpan Profil</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between">
+                <div>
+                    <img src="img/logo-beasiswa2.svg" alt="BeasiswaIn" width="100" height="auto" style="margin-bottom: 20px;">
+                    <p class="mt-2">when an unknown printer took gallery of type and scrambled it to make a specimen book has.</p>
+                    <p class="mt-2">463 7th Ave, NY 10018, USA</p>
+                    <p class="mt-2">+123 88 9900 456</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold">Useful Links</h3>
+                    <ul class="mt-2">
+                        <li><a href="#" class="hover:underline">Our values</a></li>
+                        <li><a href="#" class="hover:underline">Our advisory board</a></li>
+                        <li><a href="#" class="hover:underline">Our partners</a></li>
+                        <li><a href="#" class="hover:underline">Work at Future Learn</a></li>
+                        <li><a href="#" class="hover:underline">Quizzes Plus</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold">Our Company</h3>
+                    <ul class="mt-2">
+                        <li><a href="#" class="hover:underline">Contact Us</a></li>
+                        <li><a href="#" class="hover:underline">Become Teacher</a></li>
+                        <li><a href="#" class="hover:underline">Blog</a></li>
+                        <li><a href="#" class="hover:underline">Instructor</a></li>
+                        <li><a href="#" class="hover:underline">Events</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold">Get In Touch</h3>
+                    <div class="flex mt-2">
+                        <a href="#" class="text-gray-400 mx-2 hover:text-gray-200"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 mx-2 hover:text-gray-200"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 mx-2 hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 mx-2 hover:text-gray-200"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
